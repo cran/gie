@@ -1,0 +1,69 @@
+http_interactions:
+- request:
+    method: get
+    uri: https://agsi.gie.eu/api?page=1&size=30&country=DE&date=2022-05-01
+    body:
+      encoding: ''
+      string: ''
+    headers:
+      Accept: application/json, text/xml, application/xml, */*
+      x-key: ''
+  response:
+    status:
+      status_code: 200
+      category: Success
+      reason: OK
+      message: 'Success: (200) OK'
+    headers:
+      date: Sun, 25 Feb 2024 15:42:16 GMT
+      content-type: application/json
+      transfer-encoding: chunked
+      connection: keep-alive
+      cache-control: no-cache, private
+      x-robots-tag: noindex
+      cf-cache-status: DYNAMIC
+      server: cloudflare
+      cf-ray: 85b10ea4393e915c-FRA
+      content-encoding: gzip
+      alt-svc: h3=":443"; ma=86400
+    body:
+      encoding: ''
+      file: no
+      string: '{"last_page":1,"total":1,"dataset":"","gas_day":"2024-02-23","data":[{"name":"Germany","code":"DE","url":"DE","updatedAt":"2023-12-21
+        01:48:09","gasDayStart":"2022-05-01","gasInStorage":"86.2235","consumption":"888.8300","consumptionFull":"9.7","injection":"1282.99","withdrawal":"7.7","netWithdrawal":"-1275.3","workingGasVolume":"241.8803","injectionCapacity":"4010.35","withdrawalCapacity":"6823.18","contractedCapacity":"-","availableCapacity":"-","coveredCapacity":"-","status":"E","trend":"0.61","full":"35.65","info":[]}]}'
+  recorded_at: 2024-02-25 15:42:18 GMT
+  recorded_with: vcr/1.2.2, webmockr/0.9.0
+- request:
+    method: get
+    uri: https://agsi.gie.eu/api?page=1&size=30&country=DE&date=2022-05-01
+    body:
+      encoding: ''
+      string: ''
+    headers:
+      Accept: application/json, text/xml, application/xml, */*
+      x-key: ''
+  response:
+    status:
+      status_code: 200
+      category: Success
+      reason: OK
+      message: 'Success: (200) OK'
+    headers:
+      date: Sun, 25 Feb 2024 15:42:16 GMT
+      content-type: application/json
+      transfer-encoding: chunked
+      connection: keep-alive
+      cache-control: no-cache, private
+      x-robots-tag: noindex
+      cf-cache-status: DYNAMIC
+      server: cloudflare
+      cf-ray: 85b10ea6bbdc915c-FRA
+      content-encoding: gzip
+      alt-svc: h3=":443"; ma=86400
+    body:
+      encoding: ''
+      file: no
+      string: '{"last_page":1,"total":1,"dataset":"","gas_day":"2024-02-23","data":[{"name":"Germany","code":"DE","url":"DE","updatedAt":"2023-12-21
+        01:48:09","gasDayStart":"2022-05-01","gasInStorage":"86.2235","consumption":"888.8300","consumptionFull":"9.7","injection":"1282.99","withdrawal":"7.7","netWithdrawal":"-1275.3","workingGasVolume":"241.8803","injectionCapacity":"4010.35","withdrawalCapacity":"6823.18","contractedCapacity":"-","availableCapacity":"-","coveredCapacity":"-","status":"E","trend":"0.61","full":"35.65","info":[]}]}'
+  recorded_at: 2024-02-25 15:42:18 GMT
+  recorded_with: vcr/1.2.2, webmockr/0.9.0
